@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YouTube Thumbnail Downloader</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #cacbcd;
+
+            border-radius: 25px;
+
+        }
+
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            border-radius: 15px;
+        }
+
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text-center">
+        <img src="images/icon128.png" alt="YouTube Thumbnail Downloader Icon" style="width: 64px; height: 64px;" />
+        <h1 class="my-4">Download Thumbnail</h1>
+        <button id="downloadBtn" class="btn btn-custom">Download</button>
+        <p id="errorMessage" style="color: red; display: none;"></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
